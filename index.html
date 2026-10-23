@@ -1,0 +1,149 @@
+<html>
+  <header></header>
+  <body>
+    <table class="movies">
+      <tbody>
+        <tr class="header">
+          <th class="leftimg"><img src="tumblr_animatedglittergraphics-n-more_764066712508399616_01.gif"></th>
+          <th>Movie</th>
+          <th>Year</th>
+          <th>Link</th>
+          <th class="rightimg"><img src="tumblr_animatedglittergraphics-n-more_764066712508399616_01.gif"></th>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="tumblr_animatedglittergraphics-n-more_697754103467606016_21.gif"></td>
+          <td class="title">Brain Fix</td>
+          <td class="year">1991</td>
+          <td class="link"><a href="https://www.youtube.com/watch?v=8X_rHBJhhF8"><img src="tumblr_94470b852dbc0f4983d26efa258260f6_a4b84a1b_500.webp"></a></td>
+          <td class="leftimg"><img src="tumblr_animatedglittergraphics-n-more_698099160287739904_28.gif"></td>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="tumblr_animatedglittergraphics-n-more_632512687876816896_06.gif" class="pixelart"></td>
+          <td class="title">Dolly Dearest</td>
+          <td class="year">1991</td>
+          <td class="link"><a href="https://www.youtube.com/watch?v=dxBAptawFdU"><img src="tumblr_animatedglittergraphics-n-more_763707851681251328_02.gif"></a></td>
+          <td class="rightimg"><img src="tumblr_animatedglittergraphics-n-more_765525920760168448_30.gif"></td>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="tumblr_animatedglittergraphics-n-more_730484985142837248_22.gif" class="pixelart"></td>
+          <td class="title">Frankenhooker</td>
+          <td class="year">1990</td>
+          <td class="link"><a href="https://tubitv.com/movies/650565/frankenhooker"><img src="tumblr_animatedglittergraphics-n-more_730118064770777088_05.gif"></a></td>
+          <td class="leftimg"><img src="halloween is NOT satanic.gif"></td>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="halloween is NOT satanic.gif"></td>
+          <td class="title">Frankie Freako</td>
+          <td class="year">2024</td>
+          <td class="link"><a href="https://www.youtube.com/watch?v=dxBAptawFdU"><img src="tumblr_animatedglittergraphics-n-more_724317690270990336_04.gif"></a></td>
+          <td class="rightimg"><img src="tumblr_animatedglittergraphics-n-more_798968622423982080_02.gif"></td>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="tumblr_animatedglittergraphics-n-more_698099160287739904_27.gif"></td>
+          <td class="title">Jack-O</td>
+          <td class="year">1995</td>
+          <td class="link"><a href="https://fawesome.tv/movies/10672493/jack-o"><img src="tumblr_animatedglittergraphics-n-more_763145233040015361_18.gif" class="pixelart"></a></td>
+          <td class="rightimg"><img src="tumblr_animatedglittergraphics-n-more_796862185793028096_01.gif"></td>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="tumblr_animatedglittergraphics-n-more_794799595133829120_03.gif"></td>
+          <td class="title">Spontaneous Combustion</td>
+          <td class="year">1989</td>
+          <td class="link"><a href="https://tubitv.com/movies/100015456/spontaneous-combustion"><img src="tumblr_animatedglittergraphics-n-more_764552978111791104_01.gif" class="pixelart"></a></td>
+          <td class="rightimg"><img src="tumblr_animatedglittergraphics-n-more_765908405375385601_01.gif"></td>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="have a witchy weenie.gif"></td>
+          <td class="title">The Other</td>
+          <td class="year">2025</td>
+          <td class="link"><a href="https://tubitv.com/movies/100045386/the-other"><img src="tumblr_animatedglittergraphics-n-more_796870306303180800_01.gif"></a></td>
+          <td class="rightimg"><img src="have a witchy weenie.gif"></td>
+        </tr>
+        <tr class="movie">
+          <td class="leftimg"><img src="tumblr_607c0b9a814c3576656f5e949e39e352_08984ddd_500.webp"></td>
+          <td class="title">976-EVIL</td>
+          <td class="year">1989</td>
+          <td class="link"><a href="https://tubitv.com/movies/100007196/976-evil"><img src="halloween-in-office-93b20gbzyrhsngg4.webp"></a></td>
+          <td class="rightimg"><img src="tumblr_607c0b9a814c3576656f5e949e39e352_08984ddd_500.webp"></td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
+
+<style>
+
+body {
+  background-image: url("tumblr_animatedglittergraphics-n-more_764931560682176512_01.gif");
+  background-repeat: repeat;
+  background-size: 10%;
+  margin: 0 0 0 0;
+  
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.movies {
+  .leftimg, .rightimg {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    img {
+      min-width: 48px;
+      /* max-width: 100%; */
+      height: 96px;
+    }
+  }
+  .rightimg {
+    img {
+      transform: scaleX(-1);
+    }
+  }
+
+  .movie, .header {
+    background-color: rgba(0,0,0,0.8);
+    color: lime;
+    text-shadow: lime 0 0 4px;
+    &:hover {
+      background-color: darkorange;
+      color: darkorchid;
+      text-shadow: darkorchid 0 0 4px;
+    }
+    td, th {
+      margin: 0 0 0 0;
+    }
+  }
+  .title, .year, .header {
+    padding-left: 2em;
+    padding-right: 2em;
+    font-size: xx-large;
+  }
+  .title {
+    text-align: left;
+  }
+  .year {
+    text-align: center;
+  }
+  .link {
+    a {
+      display: flex;
+      flex-flow: row nowrap;
+      justify-content: center;
+      align-items: center;
+      img {
+        min-width: 96px;
+        max-width: 100%;
+        height: 96px;
+      }
+      .pixelart {
+        image-rendering: pixelated;
+        image-rendering: -moz-crisp-edges;
+        image-rendering: crisp-edges;
+      }
+    }
+  }
+}
+</style>
